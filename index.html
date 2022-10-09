@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="./css/styles.css" />
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
@@ -20,19 +20,28 @@
         <ul class="navbar1">
           <li><a href="#">Agencja</a></li>
           <li><a href="./Portfolio.html">Portfolio</a></li>
-          <li>Kontakt</li>
+          <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
       <ul class="mailtel">
-        <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
-        <li><span>+48 111 111 111</span></li>
+        <li>
+          <a class="mail" href="mailto:info@devstudio.com">
+            info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <span><a href="tel:+48111111111">+48 111 111 111</a></span>
+        </li>
       </ul>
     </header>
     <div class="head">
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <input type="button" value="Zamów usługę" />
+      <h1>
+        EFEKTYWNE ROZWIĄZANIA
+        <p>DLA WASZEGO BIZNESU</p>
+      </h1>
+      <input class="btnIndex" type="button" value="Zamów usługę" />
     </div>
-      <main>
+    <main>
       <ul class="loremIpsum">
         <li>
           <h4>Lorem ipsum</h4>
@@ -64,7 +73,7 @@
         </li>
       </ul>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="mainSection">Czym się zajmujemy</h2>
 
         <ul class="imgIndex">
           <li>
@@ -73,6 +82,7 @@
               alt="kodowanie"
               width="370"
               height="294"
+              class="imgIndexClass"
             />
           </li>
 
@@ -82,6 +92,7 @@
               alt="telefon i laptop"
               width="370"
               height="294"
+              class="imgIndexClass"
             />
           </li>
 
@@ -89,15 +100,16 @@
             <img
               src="./Images/pthree.jpg"
               alt="tablet"
-              width="270"
-              height="260"
+              width="370"
+              height="294"
+              class="imgIndexClass"
             />
           </li>
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+        <h2 class="mainSection">Nasz zespół</h2>
+        <ul class="imgIndexTeam">
           <li>
             <figure>
               <img
@@ -106,7 +118,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe <p>Product Designer</p></figcaption>
+              <figcaption>
+                John Doe
+                <p>Product Designer</p>
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -117,7 +132,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe <p>Frontend Developer</p></figcaption>
+              <figcaption>
+                John Doe
+                <p>Frontend Developer</p>
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -128,7 +146,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe<p> Marketing</p></figcaption>
+              <figcaption>
+                John Doe
+                <p>Marketing</p>
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -139,7 +160,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe<p> UI Designer</p></figcaption>
+              <figcaption>
+                John Doe
+                <p>UI Designer</p>
+              </figcaption>
             </figure>
           </li>
         </ul>
@@ -147,11 +171,14 @@
     </main>
     <footer>
       <a class="web-studio-footer" href="./index.html"
-      ><span class="web">Web</span><span class="studio">Studio</span></a>
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
       <address class="addres">m. Warszawa,Aleje Jerozolimskie 21</address>
       <ul class="info-footer">
-        <li>info@example.com</li>
-        <li>+48 111 111 111</li>
+        <li>
+          <a class="mail" href="mailto:info@devstudio.com">info@example.com</a>
+        </li>
+        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </footer>
   </body>
