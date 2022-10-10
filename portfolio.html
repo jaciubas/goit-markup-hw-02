@@ -15,37 +15,51 @@
   </head>
   <body>
     <header>
-      <a class="web-studio" href="./index.html"
+      <a class="web-studio reference" href="./index.html"
         ><span class="web">Web</span><span>Studio</span></a
       >
       <nav>
         <ul class="navbar1">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./Portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li class="list-element">
+            <a class="reference navigation" href="#">Agencja</a>
+          </li>
+          <li class="list-element">
+            <a class="reference navigation" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="list-element">
+            <a class="reference navigation" href="#">Kontakt</a>
+          </li>
         </ul>
       </nav>
       <ul class="mailtel">
-        <li>
-          <a class="mail" href="mailto:info@devstudio.com">
+        <li class="list-element">
+          <a class="mail reference" href="mailto:info@devstudio.com">
             info@devstudio.com</a
           >
         </li>
-        <li>
-          <span><a href="tel:+48111111111">+48 111 111 111</a></span>
+        <li class="list-element">
+          <span class="phoneAndMail"
+            ><a class="reference" href="tel:+48111111111"
+              >+48 111 111 111</a
+            ></span
+          >
         </li>
       </ul>
     </header>
     <main>
-      <input class="btn" type="button" value="Wszystkie" />
-      <input class="btn" type="button" value="Strony" />
-      <input class="btn" type="button" value="Aplikacje" />
-      <input class="btn" type="button" value="Dizajn" />
-      <input class="btn" type="button" value="Marketing" />
       <section>
+        <ul class="btnUL">
+          <li class="list-element"><button class="btn">Wszystkie</button></li>
+          <li class="list-element"><button class="btn">Strony</button></li>
+          <li class="list-element"><button class="btn">Aplikacje</button></li>
+          <li class="list-element"><button class="btn">Dizajn</button></li>
+          <li class="list-element"><button class="btn">Marketing</button></li>
+        </ul>
         <ul class="img">
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/Technocrack.jpg"
                 width="370"
@@ -54,12 +68,12 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Technocrack Strona internetowa
-                <p>Strona internetowa</p>
+                <p class="desc">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/nba.jpg"
                 width="370"
@@ -68,12 +82,12 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Grafika New Orealn vs Golder Star
-                <p>Dizajn</p>
+                <p class="desc">Dizajn</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/sea-food.jpg"
                 width="370"
@@ -83,15 +97,15 @@
 
               <figcaption class="figcaptionPortfolio">
                 Grafika New Orealn vs Golder Star
-                <p>Aplikacja</p>
+                <p class="desc">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
 
         <ul class="img">
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/headphones.jpg"
                 width="370"
@@ -100,12 +114,12 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Projekt Prime
-                <p>Marketing</p>
+                <p class="desc">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/boxes.jpg"
                 width="370"
@@ -114,12 +128,12 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Projekt Boxes
-                <p>Aplikacja</p>
+                <p class="desc">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/inspiration-has-no-borders.jpg"
                 width="370"
@@ -128,15 +142,15 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Inspiration has no Borders
-                <p>Strona internetowa</p>
+                <p class="desc">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
         </ul>
 
         <ul class="img">
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/book.jpg"
                 width="370"
@@ -145,12 +159,12 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Magazyn Limited Edition
-                <p>Dizajn</p>
+                <p class="desc">Dizajn</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/label-tag.jpg"
                 width="370"
@@ -159,12 +173,12 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Projekt LAB Star
-                <p>Marketing</p>
+                <p class="desc">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="list-element">
+            <figure class="descript">
               <img
                 src="./Images/Growing-busines.jpg"
                 width="370"
@@ -173,23 +187,27 @@
               />
               <figcaption class="figcaptionPortfolio">
                 Growing Busines Dizajn
-                <p>Aplikacja</p>
+                <p class="desc">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="web-studio-footer" href="./index.html"
+    <footer class="footer">
+      <a class="web-studio-footer reference" href="./index.html"
         ><span class="web">Web</span><span class="studio">Studio</span></a
       >
       <address class="addres">m. Warszawa,Aleje Jerozolimskie 21</address>
       <ul class="info-footer">
-        <li>
-          <a class="mail" href="mailto:info@devstudio.com">info@example.com</a>
+        <li class="list-element">
+          <a class="reference" class="mail" href="mailto:info@devstudio.com"
+            >info@example.com</a
+          >
         </li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li class="list-element">
+          <a class="reference" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </footer>
   </body>

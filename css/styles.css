@@ -1,7 +1,7 @@
 /* Style header */
 :root {
   --colorHover: rgba(33, 150, 243, 1);
-  --colorLink: black;
+  --colorLink: #212121;
   --colorBorder: rgba(33, 150, 243, 0, 5);
   --bodyColor: rgba(33, 33, 33, 1);
   --colorBtnBorder: rgba(0, 0, 0, 0.12);
@@ -14,11 +14,17 @@
   --colorIndexBtn: #fff;
   --shadowColor: rgba(0, 0, 0, 0.15);
   --colorLoremIpsum: #757575;
+  --mailTelColor: rgba(117, 117, 117, 1);
+  --btnHoverColor: #fff;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--bodyColor);
 }
+.reference .navigation {
+  color: var(--bodyColor);
+}
+
 .mailtel {
   display: flex;
   position: relative;
@@ -28,11 +34,11 @@ body {
   font-size: 14px;
   line-height: 1.172em;
 }
-.mailtel span {
+.mailtel .phoneAndMail {
   margin-left: 40px;
 }
 
-.navbar1 > li {
+.navbar1 > .list-element {
   display: flex;
   flex-wrap: nowrap;
   float: left;
@@ -62,25 +68,25 @@ body {
 .navbar1 > li:hover {
   color: var(--colorHover);
 }
-a:link {
+.reference:link {
   color: var(--colorLink);
   text-decoration: none;
+  color: var(--mailTelColor);
 }
-a:visited {
+.reference:visited {
   text-decoration: none;
   color: var(--colorLink);
 }
-a:hover {
+.reference:hover {
   color: var(--colorHover);
 }
 
 .btn:hover {
   background-color: var(--colorHover);
   border-color: var(--colorBorder);
+  color: var(--btnHoverColor);
 }
 .btn {
-  justify-content: center;
-  position: relative;
   left: 367.5px;
   width: 121px;
   height: 38px;
@@ -91,12 +97,18 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.625em;
+  font-family: "Roboto", sans-serif;
+}
+.btnUL {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
-li {
+.list-element {
   list-style: none;
 }
-footer {
+.footer {
   background-color: var(--footerAndHeaderBgC);
   height: 252px;
   width: 1600px;
@@ -108,8 +120,9 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
+  color: rgba(33, 33, 33, 1);
 }
-figure p {
+.descript .desc {
   color: var(--figureColor);
   font-weight: 400;
   font-size: 16px;
@@ -158,7 +171,7 @@ figure p {
   min-width: 1600px;
   justify-content: center;
 }
-.head h1 {
+.head .top {
   color: #fff;
   font-size: 44px;
   font-weight: 900;
@@ -169,7 +182,7 @@ figure p {
   line-height: 1.363em;
   max-width: 700px;
 }
-.head h1 p {
+.head .top .topP {
   line-height: 1.363em;
 }
 
@@ -191,12 +204,13 @@ figure p {
 .loremIpsum {
   display: flex;
   font-weight: 700;
+  font-size: 14px;
 }
-.loremIpsum p {
+.loremIpsum .sectionLoremParagraph {
   color: var(--colorLoremIpsum);
   font-weight: 400;
 }
-.loremIpsum h4 {
+.loremIpsum .sectionLoremHeader {
   font-weight: 700;
 }
 .imgIndex {
@@ -216,7 +230,7 @@ figure p {
   display: flex;
   justify-content: center;
 }
-.imgIndexTeam figcaption {
+.imgIndexTeam .figcap {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
