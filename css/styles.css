@@ -16,6 +16,7 @@
   --colorLoremIpsum: #757575;
   --mailTelColor: rgba(117, 117, 117, 1);
   --btnHoverColor: #fff;
+  --colorStudio: #000000;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -61,6 +62,9 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.383em;
+}
+.reference .spanStudio {
+  color: var(--colorStudio);
 }
 .web {
   color: var(--colorHover);
