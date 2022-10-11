@@ -17,6 +17,8 @@
   --mailTelColor: rgba(117, 117, 117, 1);
   --btnHoverColor: #fff;
   --colorStudio: #000000;
+  --colorContactHeader: #757575;
+  --colorContactFooter: #rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -24,6 +26,20 @@ body {
 }
 .reference .navigation {
   color: var(--bodyColor);
+}
+.telMailHeader:link {
+  color: var(--colorContactHeader);
+  text-decoration: none;
+}
+.telMailFooter:link {
+  color: var(--colorContactFooter);
+  text-decoration: none;
+}
+.telMailFooter:visited {
+  text-decoration: none;
+}
+.telMailHeader:visited {
+  text-decoration: none;
 }
 
 .mailtel {
@@ -75,7 +91,6 @@ body {
 .reference:link {
   color: var(--colorLink);
   text-decoration: none;
-  color: var(--mailTelColor);
 }
 .reference:visited {
   text-decoration: none;
@@ -204,6 +219,7 @@ body {
   position: relative;
   top: 200px;
   left: 675px;
+  font-family: "Roboto", sans-serif;
 }
 .loremIpsum {
   display: flex;
